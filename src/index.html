@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpack Boilerplate</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="welcome">Webpack Boilerplate</h1>
+        <p class="get-started">Your gateway to modern web development</p>
+        <div class="cards">
+            <div class="card">
+                <h2>1. Install Dependencies 📦</h2>
+                <p>Kickstart your project by running <code>yarn install</code> to set up all required dependencies.</p>
+            </div>
+            <div class="card">
+                <h2>2. Development Server 🚀</h2>
+                <p>Launch your development environment with <code>yarn serve</code> and start coding right away.</p>
+            </div>
+            <div class="card">
+                <h2>3. Build for Production 🏗️</h2>
+                <p>When you're ready to deploy, use <code>yarn build</code> to create an optimized production build.</p>
+            </div>
+            <div class="card">
+                <h2>4. Customize 🎨</h2>
+                <p>Tailor the Webpack configuration to your needs and add custom scripts for maximum flexibility.</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2023 Webpack Boilerplate | Version 1.0.0 | Build Version: <span id="build-number"><%= BUILD_NUMBER %></span> | Created with ❤️ by Your Team</p>
+            <p>Powered by Webpack, Babel, and other open-source technologies</p>
+        </div>
+    </div>
+    <div class="background-animation"></div>
+</body>
+</html>
+
+Build Version: <span id="build-number"><%= BUILD_NUMBER %></span>
