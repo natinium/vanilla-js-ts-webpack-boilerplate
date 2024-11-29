@@ -2,8 +2,7 @@
 
 ![Project Banner](https://via.placeholder.com/1000x200?text=Your+Project+Name)  
 
-![Webpack](https://img.shields.io/badge/webpack-5.96.1-blue?logo=webpack) ![Babel](https://img.shields.io/badge/Babel-7.26.0-yellow?logo=babel) ![Yarn](https://img.shields.io/badge/yarn-1.22.22-2C8EBB?logo=yarn) ![TypeScript](https://img.shields.io/badge/TypeScript-5.7.2-blue?logo=typescript)  
-![ESLint](https://img.shields.io/badge/ESLint-9.15.0-purple?logo=eslint) ![Prettier](https://img.shields.io/badge/Prettier-3.4.1-ff69b4?logo=prettier) ![Stylelint](https://img.shields.io/badge/Stylelint-16.10.0-blue?logo=stylelint) ![Commitizen](https://img.shields.io/badge/Commitizen-friendly-green?logo=git) ![Semantic Release](https://img.shields.io/badge/Semantic%20Release-24.2.0-green?logo=semantic-release) 
+![Webpack](https://img.shields.io/badge/webpack-5.96.1-blue?logo=webpack) ![Babel](https://img.shields.io/badge/Babel-7.26.0-yellow?logo=babel) ![Yarn](https://img.shields.io/badge/yarn-1.22.22-2C8EBB?logo=yarn) ![TypeScript](https://img.shields.io/badge/TypeScript-5.7.2-blue?logo=typescript) ![ESLint](https://img.shields.io/badge/ESLint-9.15.0-purple?logo=eslint) ![Prettier](https://img.shields.io/badge/Prettier-3.4.1-ff69b4?logo=prettier) ![Stylelint](https://img.shields.io/badge/Stylelint-16.10.0-blue?logo=stylelint) ![Commitizen](https://img.shields.io/badge/Commitizen-friendly-green?logo=git) ![Semantic Release](https://img.shields.io/badge/Semantic%20Release-24.2.0-green?logo=semantic-release) 
 
 <p align="center">
   <a href="https://github.com/yourusername/your-repo"><img src="https://img.shields.io/github/stars/yourusername/your-repo?style=for-the-badge" alt="GitHub Stars"></a>
