@@ -1,6 +1,7 @@
 export default {
   branches: ["main"], // Branches for releasing
-  repositoryUrl: "", // Add the repository url here
+  repositoryUrl:
+    "https://github.com/natinium/vanilla-js-ts-webpack-boilerplate", // Add the repository url here
   ci: false,
   plugins: [
     [
