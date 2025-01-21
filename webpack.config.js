@@ -32,16 +32,20 @@ const config = {
     path: path.resolve(__dirname, "dist"),
     filename: "[name].[contenthash].js", // Cache-busting filenames
     clean: true, // Clean output directory before build
+    publicPath: "/",
   },
 
   devServer: {
     open: true,
     host: "localhost",
+    watchFiles: ["src/**/*.html"],
+    hot: true,
   },
 
   plugins: [
     new HtmlWebpackPlugin({
       template: "src/index.html",
+      filename: "./index.html",
       inject: "body",
       templateParameters: {
         BUILD_NUMBER: buildNumber,
@@ -66,7 +70,7 @@ const config = {
       },
       {
         test: /\.s[ac]ss$/i,
-        use: [stylesHandler, "css-loader", "postcss-loader", "sass-loader"],
+        use: [stylesHandler, "css-loader", "sass-loader", "postcss-loader"],
       },
       {
         test: /\.css$/i,
@@ -75,8 +79,11 @@ const config = {
       {
         test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif)$/i,
         type: "asset",
-      }, // Add your rules for custom modules here
-      // Learn more about loaders from https://webpack.js.org/loaders/
+      },
+      {
+        test: /\.html$/i,
+        loader: "html-loader",
+      },
     ],
   },
 
