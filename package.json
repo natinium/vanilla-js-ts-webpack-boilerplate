@@ -2,7 +2,7 @@
   "name": "my-webpack-project",
   "description": "My webpack project",
   "version": "1.0.0",
-  "author": "",
+  "author": "Natnael Mesele",
   "keywords": [],
   "license": "ISC",
   "main": "index.js",
